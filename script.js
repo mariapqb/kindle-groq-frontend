@@ -2,8 +2,8 @@ const form = document.getElementById("chat-form");
 const promptInput = document.getElementById("prompt");
 const responseBox = document.getElementById("response");
 
-// Cambia esta URL por la de tu backend publicado
-const API_URL = "https://TU-BACKEND.onrender.com/ask";
+
+const API_URL = "https://kindle-groq-backend.onrender.com/ask";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
